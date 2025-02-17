@@ -1,6 +1,12 @@
+@font-face {
+    font-family: Outfit;
+    src: url(./Outfit/Outfit-Regular.ttf);
+
+}
+
+
 body {
-    height: 50vw;
-    width: 100vw;
+    height: 100vh;
     background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
@@ -8,12 +14,31 @@ body {
     overflow: hidden;
 }
 
+.qr-code-img {
+    border-radius: 10px;
+}
 
+h2 {
+    margin: 0;
+    padding: 5% 5%;
+    font-family: Outfit;
+
+}
+
+p {
+    margin: 0;
+    padding: 0 10% 7% 10%;
+    Font-size: 15px;
+    font-family: Outfit;
+}
 
 .window {
-
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    height: auto;
+    text-align: center;
     background-color: hsl(0, 0%, 100%);
-    width: 30vw;
-    border-radius: 20px;
-    padding: 1%;
+    border-radius: 15px;
+    padding: 1em;
 }
